@@ -1,4 +1,4 @@
-package com.willliammb.APISaleKotlin
+package com.willliammb.sale
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
