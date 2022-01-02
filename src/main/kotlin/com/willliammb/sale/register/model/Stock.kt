@@ -6,10 +6,10 @@ import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity
-class Customer {
+class Stock {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var cusCdCustomer: Int = 0
+    var stcCdStock: Int = 0
 
-    var cusDsCustomer: String = ""
+    var stcDsStock: String = ""
 }

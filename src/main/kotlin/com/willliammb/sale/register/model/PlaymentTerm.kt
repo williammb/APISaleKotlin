@@ -1,15 +1,18 @@
 package com.willliammb.sale.register.model
 
+import com.willliammb.sale.register.enuns.PaymentType
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity
-class Customer {
+class PaymentTerm {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var cusCdCustomer: Int = 0
+    var ptrCdPaymentTerm: Int = 0
 
-    var cusDsCustomer: String = ""
+    var ptrDsPaymentTerm: String = ""
+
+    var ptrCdPaymentType: PaymentType = PaymentType.CASH
 }
