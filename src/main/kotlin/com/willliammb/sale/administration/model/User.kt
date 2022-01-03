@@ -10,7 +10,7 @@ import javax.validation.constraints.Max
 import javax.validation.constraints.Min
 
 @Entity
-class UserModel {
+class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var usrCdUser: Int = 0
